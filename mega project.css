@@ -1,0 +1,252 @@
+*{
+    box-sizing: content-box;
+    list-style: none;
+    margin: 0px;
+}
+h1{
+    padding: 50px;
+    text-align: center;
+    background-color: lightskyblue;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    font-size: 45px;
+}
+.h1{
+    background-image: url(heading.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-attachment: fixed;
+}
+
+
+nav{
+    display: flex;
+    background:linear-gradient(to left,black,gray);
+    overflow: hidden;
+
+}
+
+nav a{
+    display: block;
+    color: honeydew;
+    text-decoration: none;
+    padding: 1em 2em;
+    float: left;
+    text-align: center;
+    text-shadow: 2px 1px 2px white;
+}
+.social-media a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+    padding: 10px 1em;
+    margin: 1em;
+    float: left;
+    text-shadow: 2px 1px 1px black;
+    align-content: center;
+    border-radius: 10px;
+    background-color:grey;
+
+}
+
+.social-media i{
+    margin: 5px;
+}
+.social-media a:hover{
+    background-color:black;
+}
+#you{
+    color:red;
+}
+#insta{
+    color: #dd2a7b;
+}
+#linkedin{
+    color: steelblue;
+}
+
+#what{
+    color: greenyellow;
+}
+
+#facebook{
+    color: blue;
+}
+
+
+section{
+    text-align: center;
+    height: 100%;
+    padding: 75px;
+    margin: 10px 20px;
+    min-width: 100vh;
+}
+
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 */
+    position: relative;
+    width: 100%;
+} 
+  
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 85%;
+    height: 80%;
+    
+}
+img{
+    padding: 5px 5px;
+    margin: 5px;
+}
+
+
+
+h2{
+    padding-bottom: 40px;
+}
+footer {
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    text-shadow: 2px 1px 2px black;
+    align-content: center;
+    padding: 1em;
+    margin: 5px;
+    
+}
+footer a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+    color: darkorange;
+    font-size: large;
+    font-weight: bold;
+}
+h5{
+    padding: 2em;
+    margin: 0px 130px;
+    text-align: center;
+    color: purple;
+}
+h2:hover span{
+    color:palevioletred;
+    text-shadow: 3px 2px 1px black;
+}
+h2 span{
+    background: linear-gradient(to right,  yellow ,lightgreen);
+    color:rgb(240, 12, 88);
+    text-shadow: 3px 2px 1px white;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 20px;
+
+}
+h3{
+    color:coral;
+    text-shadow: 2px 1px 1px black;
+}
+h5{
+    color: darkolivegreen;
+}
+body{
+    background:linear-gradient(to right, honeydew, pink);
+}
+
+.no-right{
+    margin-left: auto;
+}
+
+.menu-btn:hover{
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+}
+
+/* carousel  instagram wala */
+
+
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+
+.carousel-cell video{
+    
+    width: 100%;
+    
+    height: 100%;
+
+}
+
+.img-res{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    max-width: 100vh;
+    height: 100%;
+}
+video{
+    width: 100%;
+    width: 100%;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+
+.profile-name{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px ;
+}
+
+
+
+
+
+
+
+@media screen and  (max-width:830px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 0px ;
+        width: 100%;
+        max-height: 100vh;
+    
+    }
+    .no-right{
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

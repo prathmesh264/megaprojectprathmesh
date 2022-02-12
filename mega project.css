@@ -12,7 +12,7 @@ h1{
     font-size: 45px;
 }
 .h1{
-    background-image: url(heading.png);
+    background-image: url(my.jpg);
     background-repeat: no-repeat;
     background-position:center top;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ h1{
 
 nav{
     display: flex;
-    background:linear-gradient(to left,black,gray);
+    background:linear-gradient(to right,black,gray);
     overflow: hidden;
 
 }
@@ -169,6 +169,9 @@ body{
 
 .no-right{
     margin-left: auto;
+    color: blue;
+    font-weight: bolder;
+    
 }
 
 .menu-btn:hover{
